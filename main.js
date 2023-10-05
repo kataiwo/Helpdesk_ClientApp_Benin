@@ -45,7 +45,7 @@ class MessageWidget {
       (key) => (container.style[key] = this.position[key])
     );
     //set z-index
-    container.style.zIndex = "999"; //this ensures it stays on top of other layers
+    container.style.zIndex = "9999"; //this ensures it stays on top of other layers
     document.body.appendChild(container);
 
     /**
